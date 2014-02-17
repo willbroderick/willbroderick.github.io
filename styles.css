@@ -1,7 +1,20 @@
+html {
+	height: 100%;
+}
+
 body {
-	font: 16px/1.2em Georgia, Times, serif;
-	background: white;
-	color: #333;
+	margin: 0;
+	font: 16px/1.2em 'Varela Round', sans-serif;
+	color: white;
+	
+	background: #a30000;
+	background: -moz-linear-gradient(top,  #ff0000 0%, #a30000 43%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff0000), color-stop(43%,#a30000));
+	background: -webkit-linear-gradient(top,  #ff0000 0%,#a30000 43%);
+	background: -o-linear-gradient(top,  #ff0000 0%,#a30000 43%);
+	background: -ms-linear-gradient(top,  #ff0000 0%,#a30000 43%);
+	background: linear-gradient(to bottom,  #ff0000 0%,#a30000 43%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#a30000',GradientType=0 );
 }
 
 .container {
@@ -12,6 +25,17 @@ body {
 }
 
 .name {
+	margin: 50px 0;
+	font: 500%/1.2em italic 'Press Start 2P', cursive;
+	text-shadow: 0 0 5px #a30000;
+}
+
+.who-am-i {
+	float: left;
+	width: 45%;
+}
+
+.what-i-think {
 	float: right;
-	font: 300%/1em 'Architects Daughter', cursive;
+	width: 45%;
 }
